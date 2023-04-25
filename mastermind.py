@@ -21,9 +21,9 @@ def userTurn():
     if code == userTry:
         print("Congratulations, you win")
     else:
-        colorPos(userTry)
+        userTryChecking(userTry)
 
-def colorPos(userTry):
+def userTryChecking(userTry):
     ColorIn = 0
     ColorInGoodPos = 0
     for i in range(len(userTry)):
